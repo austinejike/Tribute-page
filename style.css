@@ -3,12 +3,11 @@
     margin-left: auto;
     margin-right: auto;
     background-color: #ffffff;
-    border: 1px solid black;
 }
 
 .header{
     width: 950px;
-    height: 550px ;
+    height: 400px ;
     position: relative;
     background: url("http://via.placeholder.com/640x360");
     background-size: cover;
@@ -17,13 +16,13 @@
     background-color: whitesmoke;
 }
 .quote1{
-    height: 75px;
+    height: 10px;
 }
 p span{
-    padding: 12px;
+    padding: 10px;
     position: relative;
     background-color: #ffffff;
-    border: 0 solid black;
+    /* border: 0 solid #000000; */
     
 }
 .text{
@@ -37,38 +36,102 @@ p span{
     padding: 30px;
     font-size: 50px;
     font-weight: bold;
-    height: 120px;
+    height: 70px;
     width: 780px;
     line-height: 120px;
     color: #ececec;
 }
 .container-2{
-    height: 700px;
-    width: 800px;
-    position: relative;
-    top: 25px;
-    left: 10px;
+    float: left;
     font-family: 'Dosis', sans-serif;
+    display: grid;
+    grid-template-columns: 100px auto;
 }
-/* #f9f9f9 */
 
 .event-date {
-    width: 100px;
-    height: 7px;
     text-align: center;
-    line-height: 26px;
-    /* float: left; */
+    line-height: 30px;
     font-size: 14px;
     border-top: 2px solid #ccc;
-    margin: -1px 0 0 0;
+    /* border-bottom: 2px solid #ccc;; */
+    /* margin: -1px 0 0 0; */
     padding: 4px 5px 6px 0;
-    clear: left;
     font-weight: bold;
 }
 
-.event-desc-nth-child{
-    border-bottom: 1px solid  #000;
+.event-desc-first-child{
+    border-top: 2px solid  #ccc;
+    background-color: #f9f9f9;
 }
 .event-desc {
-    float: left;
+    padding: 4px 5px 6px 0;
+    line-height: 26px;
+} 
+
+.event-desc-nth-child{
+    border-top: 2px solid #ccc;
+    background-color: #f9f9f9;
+    
+}
+.last-event{
+    border-bottom: 2px solid #ccc;
+}
+.last-event-date{
+    border-bottom: 2px solid #ccc;
+}
+.section-container{
+    float: right;
+    margin-left: 45px;
+    position: relative;
+    top: 0;
+    left: 45px;
+
+}
+.passport{
+    width: 300px;
+    height: 300px;
+    border: 2px solid #000000;    
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+ td{
+    border-bottom: 1px solid #ccc;
+}
+.footsy{
+    width: 1100px;
+    height: auto;
+    margin: 40px auto;
+    /* margin-left: auto;
+    margin-right: auto; */
+    background-color: #ececec;
+    
+}
+.footsy .last-pra{
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+    margin-bottom: 0;
+}
+.last-para{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Pacifico', cursive;
+    margin-top: 0;
+    margin-bottom: 0;
+
+   
+}
+.last-para a{
+    text-decoration: none;
+    color: #0806c2;
+
+}
+.last-para a:hover{
+    color: #0806c2;
+    border-bottom: 2px solid #0806c2;
 }
